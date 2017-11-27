@@ -34,9 +34,9 @@ node /dist/server/bin/www.js
 
 ## Note
 
-This is project for starter concepts if you want to clone to do someting please check and fixbug for me 
-Thank.
+This is project for starter concepts if you want to clone to do something please check and fix bug for me.
+### Thank.
 
 โครงการนี้สร้างมาเพื่อ ทดสอบการทำงานของ ssr(universal) ร่วมกับ pwa concepts ครับ ยังมีบัคอยู่ครับ แต่จากการทดสอบใช้งานได้ครับ
 ถ้าเจอปัญหา สามารถแจ้งหรือ Contributions เพื่อแก้ปัญหากับเราได้คับ
-ขอบคุณครับ
+### ขอบคุณครับ
