@@ -8,7 +8,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 ```bash
-Run `ng serve` or `npm start` for a dev server. Navigate to `http://localhost:4000/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` or `npm start` 
+## for a dev server. Navigate to `http://localhost:4000/`. 
+## The app will automatically reload if you change any of the source files.
 ```
 
 ## Build / Production
@@ -27,7 +29,7 @@ Structure of dist folder:
 
 
 ## รัน ssr บน server
-
+node /dist/server/bin/www.js
 ```
 
 ## Note
