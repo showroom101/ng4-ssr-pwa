@@ -24,6 +24,10 @@ Structure of dist folder:
 
 /dist/server <-- expressjs
 /dist/brower <-- angular
+
+
+## รัน ssr บน server
+
 ```
 
 ## Note
@@ -31,9 +35,6 @@ Structure of dist folder:
 This is project for starter concepts if you want to clone to do someting please check and fixbug for me 
 Thank.
 
-โครงการนี้สร้างมาเพื่อ ทดสอบการทำงานของ server site randering ร่วมกับ pwa concepts ครับ ยังมีบัคอยู่ครับบางจุด แต่จากการทดสอบใช้งานได้ครับ
+โครงการนี้สร้างมาเพื่อ ทดสอบการทำงานของ ssr(universal) ร่วมกับ pwa concepts ครับ ยังมีบัคอยู่ครับ แต่จากการทดสอบใช้งานได้ครับ
 ถ้าเจอปัญหา สามารถแจ้งหรือ Contributions เพื่อแก้ปัญหากับเราได้คับ
 ขอบคุณครับ
-
-
-credit Paitoon(Lifestyle).
