@@ -9,7 +9,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 ```bash
 Run `ng serve` or `npm start` 
+## สำหรับ dev server รันผ่าน `http://localhost:4000/`.
 ## for a dev server. Navigate to `http://localhost:4000/`. 
+## แอฟนี้ จะ auto reload เมื่อมีการแก้ไข code ในโปรเจ็ค
 ## The app will automatically reload if you change any of the source files.
 ```
 
@@ -35,8 +37,8 @@ node /dist/server/bin/www.js
 ## Note
 
 This is project for starter concepts if you want to clone to do something please check and fix bug for me.
-### Thank.
+`Thank.`
 
 โครงการนี้สร้างมาเพื่อ ทดสอบการทำงานของ ssr(universal) ร่วมกับ pwa concepts ครับ ยังมีบัคอยู่ครับ แต่จากการทดสอบใช้งานได้ครับ
 ถ้าเจอปัญหา สามารถแจ้งหรือ Contributions เพื่อแก้ปัญหากับเราได้คับ
-### ขอบคุณครับ
+`ขอบคุณครับ`
