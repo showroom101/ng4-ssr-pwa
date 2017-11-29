@@ -17,11 +17,11 @@ const app = express();
 
 const PORT = process.env.PORT || 4000;
 
-// default
-// const DIST_FOLDER = join(process.cwd());
-
-// with docker 
-const DIST_FOLDER  = "/var/www/html/ng4cli";
+let DIST_FOLDER = join(process.cwd());
+// docker env production
+if (process.env.NODE_ENV === "production") {
+    DIST_FOLDER = join(process.cwd() + "project/dist");
+}
 
 // Our index.html we'll use as our template
 const template = readFileSync(join(DIST_FOLDER, 'browser', 'index.html')).toString();

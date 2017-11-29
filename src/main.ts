@@ -22,7 +22,8 @@ if (environment['hmr']) {
 	bootstrap()
 	.then(() =>{
 		if("serviceWorker" in navigator){
+      console.log(navigator)
 			navigator.serviceWorker.register('/worker-basic.min.js');
 		}
-	}).catch(err => console.log(err));
+	}).catch(err => console.log("===>>", err));
 }
