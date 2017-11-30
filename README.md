@@ -18,7 +18,6 @@ npm start
 ```
 
 ## Build / Production
-
 ```bash
 ## สำหรับการ deploy ใช้คำสั่งนี้ครับ
 npm run deploy
@@ -29,12 +28,29 @@ npm run deploy
 Structure of dist folder:
 
 /dist/server <-- expressjs
-/dist/brower <-- angular
+/dist/client <-- angular
 
 
 ## รัน ssr บน server
 node /dist/server/bin/www.js
 ```
+## Build / Production (Docker Compose)
+```bash
+## สำหรับ deploy ร่วมกับ docker
+## deploy project with docker
+
+./build.sh
+
+## หรือ 
+
+cd docker
+docker-compose up
+
+##ต้องการให้ docker run mode demon(background mode)
+docker-compose up -d
+
+```
+
 
 ## Note
 ```bash
