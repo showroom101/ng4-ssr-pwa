@@ -22,8 +22,9 @@ if (environment['hmr']) {
 	bootstrap()
 	.then(() =>{
 		if("serviceWorker" in navigator){
-      console.log(navigator)
-			navigator.serviceWorker.register('/worker-basic.min.js');
+			navigator.serviceWorker.register('/worker-basic.min.js')
+      .then(reg => console.log('SW registered!', reg))
+      .catch(err => console.log('Boo!', err));
 		}
 	}).catch(err => console.log("===>>", err));
 }

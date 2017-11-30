@@ -1,7 +1,8 @@
-FROM node
+FROM node:8-slim
 
-WORKDIR /var/www/html/project
+WORKDIR /project
 
 EXPOSE 4000
+
 CMD ["node", "server.js"]
 

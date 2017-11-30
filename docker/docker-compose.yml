@@ -6,7 +6,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./angular-cli/dist:/project/dist
+      - ./../dist:/project/dist
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
     links:
       - nodejs
@@ -20,5 +20,5 @@ services:
     ports:
       - "4000:8080"
     volumes:
-      - ./angular-cli/dist:/project/dist
+      - ./../dist:/project/dist
     command: node /project/dist/server.js
