@@ -54,7 +54,7 @@ docker-compose up -d
 
 ## Note
 ```bash
-This is project for starter concepts if you want to clone to do something please check and fix bug for me.
+This is project for starter concepts if you want to do your project please check and fix bug about this project.
 ## Thank.
 
 โครงการนี้สร้างมาเพื่อ ทดสอบการทำงานของ ssr(universal) ร่วมกับ pwa concepts ครับ ยังมีบัคอยู่ครับ แต่จากการทดสอบใช้งานได้ครับ
